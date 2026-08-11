@@ -1,0 +1,11 @@
+[
+  {
+    "id": "demo-advisory-001",
+    "source": "Synthetic CERT Feed",
+    "source_type": "advisory",
+    "title": "Demonstration security advisory",
+    "content": "A fictional threat group used CVE-2099-0001 and contacted 198.51.100.42 through demo-malware.example. These indicators are reserved for documentation and are not operational.",
+    "url": "https://example.org/advisories/demo-001",
+    "trusted_cybersecurity_source": true
+  }
+]

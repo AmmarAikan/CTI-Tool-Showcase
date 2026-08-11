@@ -1,0 +1,26 @@
+{
+  "notice": "Sanitized illustrative output using reserved documentation indicators.",
+  "source_id": "demo-advisory-001",
+  "source_type": "advisory",
+  "source_pipeline": "external",
+  "classification": {
+    "label": "cti_related",
+    "backend": "trusted_source_bypass",
+    "reason": "trusted structured cybersecurity source"
+  },
+  "indicators": [
+    {
+      "value": "CVE-2099-0001",
+      "type": "cve"
+    },
+    {
+      "value": "198.51.100.42",
+      "type": "ipv4"
+    },
+    {
+      "value": "demo-malware.example",
+      "type": "domain"
+    }
+  ],
+  "processing_status": "transformed"
+}
