@@ -6,4 +6,4 @@ This public showcase, including its documentation, diagrams, examples, and demon
 
 No permission is granted to copy, modify, redistribute, republish, sublicense, sell, or present this work, in whole or in part, as another person's or team's work without prior written permission from the applicable copyright holders.
 
-The complete CTI-Tool source code is maintained separately in a private collaborative repository. This notice does not override rights required for GitHub to host and display the repository under GitHub's Terms of Service, applicable legal exceptions, or the licenses of clearly identified third-party components.
+The complete ACTIT source code is maintained separately in the public [CTI-Tool repository](https://github.com/AmmarAikan/CTI-Tool). Original software and documentation in that repository are distributed under its MIT License and third-party scope notice. This copyright notice applies to the material in this showcase repository and does not override GitHub's Terms of Service, applicable legal exceptions, or the licenses of clearly identified third-party components.
