@@ -2,7 +2,11 @@
 
 **AI-Based Cyber Threat Intelligence Platform**
 
-CTI-Tool is a collaborative graduation project for collecting, normalizing, classifying, and enriching cyber threat intelligence. This public repository presents the architecture, methodology, sanitized demonstrations, and measured results. The complete implementation is maintained in a private team repository.
+CTI-Tool is a collaborative graduation project for collecting, normalizing, classifying, enriching, correlating, and presenting cyber threat intelligence. This compact companion repository preserves a sanitized architecture overview, demonstration, and selected model-evaluation evidence. The current implementation and operational documentation are available in the public [ACTIT / CTI-Tool repository](https://github.com/AmmarAikan/CTI-Tool).
+
+## Repository Status
+
+This showcase is a portfolio-oriented snapshot, not the canonical source tree or the current implementation-status record. Use the main [CTI-Tool README](https://github.com/AmmarAikan/CTI-Tool#readme) for implemented capabilities, setup, tests, architecture, and known deployment boundaries.
 
 ![CTI-Tool architecture](docs/architecture.svg)
 
@@ -29,7 +33,7 @@ flowchart LR
     F --> G["Normalized CTI objects"]
     H["Offline DNRTI training"] --> I["Evaluated NER model"]
     I --> E
-    G --> J["Future correlation, enrichment, and export"]
+    G --> J["Correlation, enrichment, export, and analyst workflows"]
 ```
 
 The design deliberately separates offline model training from runtime processing. It also treats structured security telemetry differently from ordinary unstructured documents.
@@ -57,9 +61,9 @@ See [evaluation details](results/evaluation.md) for scope and limitations.
 
 Python, scikit-learn, Transformers, PyTorch, structured JSON, dataclasses, unittest, NLP/NER, and cyber threat intelligence concepts including IoCs, relationships, enrichment, STIX/TAXII, and MISP-oriented workflows.
 
-## Current Scope
+## Scope of This Showcase
 
-Implemented work covers the offline DNRTI NER pipeline and an external runtime CTI pipeline. Database repositories, API routes, dashboard, correlation engine, enrichment services, internal telemetry processing, and MISP/STIX/TAXII export remain planned work and are not presented as complete.
+The files here demonstrate the offline DNRTI NER pipeline and an early external runtime CTI pipeline with synthetic or reserved examples. They do not reproduce the complete application. The main repository now documents and implements PostgreSQL persistence, API and dashboard workflows, internal telemetry ingestion, enrichment, correlation, STIX export, and optional MISP sharing. Those capabilities retain explicit prototype and deployment limitations in the canonical documentation and are not implied by the reduced examples in this showcase.
 
 ## Team
 
@@ -71,6 +75,6 @@ This is a collaborative project maintained by the CTI-Tool project contributors,
 
 ## Source Code and Rights
 
-The complete source code is maintained in a private repository as part of the team's intellectual property. This showcase is available for portfolio review and technical demonstration only. See [COPYRIGHT.md](COPYRIGHT.md).
+The complete ACTIT source is maintained in the public [CTI-Tool repository](https://github.com/AmmarAikan/CTI-Tool), where original ACTIT software and documentation are available under the MIT License subject to the repository's third-party notices. This separate showcase remains available for portfolio review and technical demonstration under its own [copyright notice](COPYRIGHT.md).
 
 © 2026 CTI-Tool Project Contributors. All Rights Reserved.
