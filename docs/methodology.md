@@ -2,7 +2,7 @@
 
 ## Design Boundary
 
-CTI-Tool separates model development from runtime intelligence processing. This avoids retraining models during ordinary ingestion and allows a missing local model to fail safely rather than crashing the complete pipeline.
+ACTIT separates model development from runtime intelligence processing. This avoids retraining models during ordinary ingestion and allows a missing local model to fail safely rather than crashing the complete pipeline.
 
 ## Offline NLP/ML Pipeline
 

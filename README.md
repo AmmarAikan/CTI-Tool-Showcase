@@ -1,14 +1,16 @@
-# CTI-Tool Showcase
+# ACTIT Project Showcase
 
-**AI-Based Cyber Threat Intelligence Platform**
+**Unified AI-Assisted Cyber Threat Intelligence Platform**
 
-CTI-Tool is a collaborative graduation project for collecting, normalizing, classifying, enriching, correlating, and presenting cyber threat intelligence. This compact companion repository preserves a sanitized architecture overview, demonstration, and selected model-evaluation evidence. The current implementation and operational documentation are available in the public [ACTIT / CTI-Tool repository](https://github.com/AmmarAikan/CTI-Tool).
+ACTIT is a collaborative graduation project that turns disconnected external threat reporting and internal security telemetry into traceable, evidence-backed intelligence. This compact companion repository preserves a sanitized architecture overview, demonstration, and selected model-evaluation evidence. The current implementation and operational documentation are available in the public [ACTIT-Platform repository](https://github.com/AmmarAikan/ACTIT-Platform).
+
+[Explore the full project](https://github.com/AmmarAikan/ACTIT-Platform) · [View the live platform](https://cti-gateway-vps.tailf2792f.ts.net/) · [Download final deliverables](https://github.com/AmmarAikan/ACTIT-Platform/releases/tag/actit-final-deliverables-20261027) · [Read the project announcement](https://lnkd.in/p/dRvgXpgw)
 
 ## Repository Status
 
-This showcase is a portfolio-oriented snapshot, not the canonical source tree or the current implementation-status record. Use the main [CTI-Tool README](https://github.com/AmmarAikan/CTI-Tool#readme) for implemented capabilities, setup, tests, architecture, and known deployment boundaries.
+This showcase is a portfolio-oriented snapshot, not the canonical source tree or the current implementation-status record. Use the main [ACTIT README](https://github.com/AmmarAikan/ACTIT-Platform#readme) for implemented capabilities, setup, tests, architecture, and known deployment boundaries.
 
-![CTI-Tool architecture](docs/architecture.svg)
+![ACTIT architecture](docs/architecture.svg)
 
 ## What the Project Demonstrates
 
@@ -18,7 +20,7 @@ This showcase is a portfolio-oriented snapshot, not the canonical source tree or
 - Explicit CTI relevance classification with backend metadata
 - Named-entity and indicator-of-compromise extraction
 - Rule-based relationship extraction with clear provenance
-- A shared CTI object schema designed for future correlation and export
+- Explainable correlation and controlled STIX/MISP sharing in the canonical platform
 - Failure isolation and focused automated tests
 
 ## Architecture
@@ -67,14 +69,14 @@ The files here demonstrate the offline DNRTI NER pipeline and an early external 
 
 ## Team
 
-This is a collaborative project maintained by the CTI-Tool project contributors, including:
+This is a collaborative project maintained by the ACTIT project contributors, including:
 
 - [Ammar Aikan](https://github.com/AmmarAikan)
-- [Munif Aomisi](https://github.com/munifaomisi)
-- [Alaa](https://github.com/Alshowie2026)
+- [Alaaldeen AL-Shuwaie](https://github.com/Alshowie2026)
+- [Munif AL-Omisi](https://github.com/munifaomisi)
 
 ## Source Code and Rights
 
-The complete ACTIT source is maintained in the public [CTI-Tool repository](https://github.com/AmmarAikan/CTI-Tool), where original ACTIT software and documentation are available under the MIT License subject to the repository's third-party notices. This separate showcase remains available for portfolio review and technical demonstration under its own [copyright notice](COPYRIGHT.md).
+The complete ACTIT source is maintained in the public [ACTIT-Platform repository](https://github.com/AmmarAikan/ACTIT-Platform), where original ACTIT software and documentation are available under the MIT License subject to the repository's third-party notices. This separate showcase remains available for portfolio review and technical demonstration under its own [copyright notice](COPYRIGHT.md).
 
-© 2026 CTI-Tool Project Contributors. All Rights Reserved.
+© 2026 ACTIT Project Contributors. All Rights Reserved.

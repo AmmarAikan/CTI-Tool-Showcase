@@ -1,7 +1,7 @@
 """Reduced CTI schema example for technical demonstration.
 
-This is not the complete CTI-Tool implementation.
-Copyright © 2026 CTI-Tool Project Contributors. All Rights Reserved.
+This is not the complete ACTIT implementation.
+Copyright © 2026 ACTIT Project Contributors. All Rights Reserved.
 """
 
 from dataclasses import asdict, dataclass, field
